@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.keenesys.midinclude.midinclude">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <activity android:name=".MainActivity"></activity>
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <!--
+    ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".FacebookActivity" />
+        <activity android:name=".FacebookMainActivity" />
+        <activity android:name=".FacebookProfileActivity" />
+        <activity android:name=".FacebookProfileMoreActivity" />
+        <activity android:name=".FacebookOutrosActivity" />
+        <activity android:name=".TwitterLoginActivity" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="bf704d93755040acaada189872a005258b160d58" />
+
+        <activity android:name=".TwitterHomeActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".Settings2Activity" />
+        <activity android:name=".TwitterProfileActivity" />
+    </application>
+
+</manifest>
