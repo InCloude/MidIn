@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MidIn</string>
+
+    <!-- Generals strings -->
+    <string name="configuracoes">CONFIGURAÇÕES</string>
+
+    <!-- Main activity's strings -->
+
+    <string name="facebook">FACEBOOK</string>
+    <string name="twitter">TWITTER</string>
+
+    <!-- Facebook app id -->
+
+    <string name="facebook_app_id">1796501443895769</string>
+
+    <!-- Facebook's another functions -->
+    <string name="notifications">Notificações</string>
+    <string name="events">Eventos</string>
+    <string name="birthdays">Aniversários</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="do_you_prefer">Você prefere:</string>
+
+    <string name="background_dark">Fundo Escuro</string>
+    <string name="background_light">Fundo Claro</string>
+
+    <string name="do_you_have_motor_need">Você tem necessidades motoras?</string>
+
+    <string name="yes">SIM</string>
+    <string name="no">NAO</string>
+
+</resources>
