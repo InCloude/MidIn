@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/pedro/Desktop/MidInclude3/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9adafb14536ffab34ca6aa282e81d52c7618bf3c">
+        <dex dex="/home/pedro/Desktop/MidInclude3/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_59c9c5737e04a2c8be502586d0e1d28d393d7ac5/classes.dex" />
+    </item>
+
+</items>
